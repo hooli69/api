@@ -11,6 +11,7 @@ git_source(:github) do |repo_name|
 end
 ################################################################################
 # Gems de base 
+gem 'figaro'
 gem 'twitter'
 gem 'rails', '~> 5.1.4'
 gem 'puma', '~> 3.10'
